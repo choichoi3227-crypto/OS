@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=CloudOS Windows Compatibility Layer
+Exec=/usr/local/bin/launch-windows-app.sh %f
+MimeType=application/x-ms-dos-executable;application/x-msdownload;application/x-msi;
+NoDisplay=true
+StartupNotify=true
