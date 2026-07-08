@@ -1,0 +1,14 @@
+[Unit]
+Description=CloudOS Core UI Service
+After=network.target sddm.service
+
+[Service]
+Type=simple
+User=cloudos
+# 기존 프로젝트의 시작 스크립트를 호출합니다.
+ExecStart=/usr/local/bin/start-cloudos-env.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
