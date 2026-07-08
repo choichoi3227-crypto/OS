@@ -1,0 +1,54 @@
+# === 시스템 코어 (안정성 극대화) ===
+base
+linux-zen
+linux-zen-headers
+linux-firmware
+btrfs-progs
+snapper
+grub
+efibootmgr
+
+# === 네트워크 ===
+networkmanager
+nm-connection-editor
+openssh
+
+# === 데스크탑 환경 (최소한의 쉘, CloudOS UI가 메인이므로) ===
+xorg-server
+xorg-drivers
+plasma-desktop
+plasma-workspace
+sddm
+konsole
+dolphin
+kdialog
+
+# === 윈도우 앱 100% 호환성 ===
+wine
+wine-staging
+wine-mono
+wine-gecko
+bottles
+winetricks
+
+# === 맥 앱 호환성 (QEMU/KVM 기반) ===
+qemu-full
+libvirt
+edk2-ovmf
+virt-manager
+docker
+
+# === 기존 CloudOS 기능 유지 (웹/앱 구동용) ===
+nodejs
+npm
+chromium
+
+# === 유틸리티 ===
+git
+vim
+nano
+htop
+curl
+wget
+7zip
+unzip
