@@ -1,0 +1,10 @@
+{
+  "name": "cloudos-original-ui",
+  "version": "1.0.0",
+  "description": "Original CloudOS Frontend & Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'Starting Original CloudOS... (Replace with your actual start command)' && sleep 5 && echo 'Original CloudOS Started on Port 8080'"
+  },
+  "dependencies": {}
+}
